@@ -1,0 +1,93 @@
+/* Basic page settings */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 0 1.5rem; 
+}
+.container {
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 0 1.5rem; 
+}
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr; 
+}
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+  }
+}
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on desktops */
+  }
+}
+/*----------------------------------------------------------------------------*/
+
+/* Core elements */
+body{
+    display: flex;
+    flex-direction: column;
+    background: url(../Media/bck2.png)  center / cover no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+header{
+    height: 10vh;
+    display: flex;
+    align-items: center; /* Perfectly aligns text and image vertically */
+    gap: 13px; 
+
+    border: 2px solid white;
+}
+main{
+    flex: 1;
+    size:500px  ;
+    
+}
+footer{
+    height: 5vh;
+    border: 2px solid white;
+}
+/*----------------------------------------------------------------------------*/
+
+/* Components */
+#logo{
+    height: 82px;
+    width: 82px;
+}
+#NA{
+    color: white;
+    font: bold;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+
+p{
+    color: aliceblue;
+}
+h1{
+    color: aliceblue;
+    font-size: 40px;
+}
+h2{
+    color: aliceblue;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    border-color: aliceblue;
+    border-width: 3px;
+    position:right;
+}
+
