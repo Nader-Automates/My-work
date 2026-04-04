@@ -44,23 +44,22 @@ body{
 header{
     height: 10vh;
     display: flex;
-    align-items: center; /* Perfectly aligns text and image vertically */
+    align-items: center;
     gap: 13px; 
 
     border: 2px solid white;
 }
 main{
+    padding-top: 20px;
+    padding-left: 20px;
     flex: 1;
     size:500px  ;
     
 }
-footer{
-    height: 5vh;
-    border: 2px solid white;
-}
+
 /*----------------------------------------------------------------------------*/
 
-/* Components */
+/* Components with id */
 #logo{
     height: 82px;
     width: 82px;
@@ -71,17 +70,20 @@ footer{
     font-size: 30px;
     margin-top: 0;
 }
+/*----------------------------------------------------------------------------*/
 
-
+/* Components: Generic */
 p{
     color: aliceblue;
 }
 h1{
     color: aliceblue;
-    font-size: 40px;
+    font-size: 30px;
 }
 h2{
     color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
 }
 button{
     background-color: black;
