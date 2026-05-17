@@ -73,6 +73,7 @@ main{
 #Louta{
   height: 50vh;
   margin-top: 12vh;
+  border-top: 1px solid rgba(255, 255, 255, 0.45);
 }
 
 #laptop{
@@ -88,6 +89,11 @@ main{
     font-weight: bold;
     font-size: 45px;
     margin-top: 0;
+}
+#sheet{
+  margin-top: 7vh;
+  width: 100px;
+  height: 100px;
 }
 /*----------------------------------------------------------------------------*/
 
@@ -107,6 +113,11 @@ main{
   font-size: 26px;
   text-decoration: none;
 }
+.sheet{
+  display: inline;
+  width: 100px;
+  margin-left: 20vw;
+}
 /*----------------------------------------------------------------------------*/
 
 /* Components: Generic */
@@ -123,6 +134,7 @@ h2{
     color: aliceblue;
     text-align: center;
     margin-top: 20px;
+    font-size: 150%;
 }
 button{
     background-color: black;
