@@ -64,10 +64,10 @@ main{
 #Lfou9{
   display: flex;
   align-items: center;
-  gap: 10px;
   height: 35vh;
-  padding-top: 10vh;
-  padding-bottom: 5vh;
+  margin-top: 4vh;
+  margin-left:7%;
+  margin-bottom: 5vh;
 }
 
 #Louta{
@@ -77,10 +77,11 @@ main{
 
 #laptop{
   height: 48vh;
-  width: auto;
+  width: 500px;
   float: left;
+  margin-left: 5vw;
   
-  object-fit: contain;    /* Prevents the image from stretching/distorting */
+  object-fit:cover  ;    /* Prevents the image from stretching/distorting */
 }
 #NA{
     color: white;
@@ -97,7 +98,6 @@ main{
   height: 20vh;
   padding-top: 40px;
   margin-top: 0;
-  margin-left: 13vw;
   align-items: right;
 }
 .head{
@@ -116,7 +116,7 @@ p{
 }
 h1{
     color: aliceblue;
-    font-size: 200%;
+    font-size: 250%;
     
 }
 h2{
