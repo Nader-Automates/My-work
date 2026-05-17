@@ -31,7 +31,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background: url(../Media/bck2.png)  center / cover no-repeat;
+    background: url(../Media/bck3.jpg)  center / cover no-repeat;
     min-height: 100vh;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif ;
@@ -64,7 +64,7 @@ main{
 #Lfou9{
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 10px;
   height: 35vh;
   padding-top: 10vh;
   padding-bottom: 5vh;
@@ -72,12 +72,13 @@ main{
 
 #Louta{
   height: 50vh;
+  margin-top: 12vh;
 }
 
 #laptop{
-  height: 45vh;
-  width: 50vw;
-  float: right;
+  height: 48vh;
+  width: auto;
+  float: left;
   
   object-fit: contain;    /* Prevents the image from stretching/distorting */
 }
@@ -92,18 +93,19 @@ main{
 
 /* Classes */
 .text-box{
-  width: 50%;
+  width: 40vw;
   height: 20vh;
   padding-top: 40px;
-  padding-left: 50px;
   margin-top: 0;
-  margin-left: 10vh;
+  margin-left: 13vw;
+  align-items: right;
 }
 .head{
   margin-right: 15px;
   color: white;
   font-weight: bold;
   font-size: 26px;
+  text-decoration: none;
 }
 /*----------------------------------------------------------------------------*/
 
